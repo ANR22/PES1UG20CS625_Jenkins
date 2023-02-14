@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'g++ -c PES1UG20CS625.cpp'
-                sh 'g++ -o PES1UG20CS25 PES1UG20CS625.cpp'
+                sh 'g++ -o PES1UG20CS625 PES1UG20CS625.cpp'
                 echo 'Build successful'
             }
         }
